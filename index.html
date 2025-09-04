@@ -155,7 +155,6 @@
             padding-top: 10px;
         }
 
-
         .last-flex {
             display: flex;
             justify-content: space-between;
@@ -168,6 +167,116 @@
             flex: 1;
             padding: 15px;
             border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-wrap: wrap;
+                padding: 10px;
+            }
+
+            .ul-list {
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 0;
+                gap: 10px;
+            }
+
+            .info {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+            }
+
+            .p-text {
+                width: 100%;
+            }
+
+            .three-item {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+            }
+
+            .th-2 {
+                width: 100%;
+                text-align: center;
+            }
+
+            .th-2 img {
+                width: 100%;
+                height: auto;
+            }
+
+            .last-flex {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+            }
+
+            .last-child {
+                width: 100%;
+                text-align: center;
+            }
+
+            .last-child img {
+                width: 100%;
+                height: auto;
+            }
+
+            .inside-logo {
+                display: flex;
+                flex-direction: row !important;
+                align-items: center;
+                gap: 10px;
+                justify-content: flex-start;
+                text-align: left;
+                margin-top: 40px;
+            }
+
+            .inside-logo img {
+                height: 30px;
+                width: auto;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .ul-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .subs {
+                padding: 8px 16px;
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+
+            .p-text {
+                font-size: 16px;
+            }
+
+            .inside-logo {
+                display: flex;
+                flex-direction: row !important;
+                align-items: center;
+                gap: 10px;
+                justify-content: flex-start;
+                text-align: left;
+                margin-top: 40px;
+            }
+
+            .inside-logo img {
+                height: 30px;
+                width: auto;
+            }
         }
     </style>
 </head>
@@ -322,7 +431,7 @@
     <section class="last-flex">
         <div class="last-child">
             <div>
-                <img src="/b-7.avif" alt="seventh-img" width="650px"/>
+                <img src="/b-7.avif" alt="seventh-img" width="650px" />
             </div>
 
             <h3>GETTING STARTED</h3>
@@ -347,14 +456,16 @@
 
         <div class="last-child">
             <div>
-                <img src="b-8.avif" alt="eight-img" width="640px"/>
+                <img src="b-8.avif" alt="eight-img" width="640px" />
             </div>
 
             <h3>GETTING STARTED</h3>
             <h4>Publishing options</h4>
 
-            <p class="p-text">The Ghost editor post settings menu has everything you
-                need to fully optimize and distribute your content effectively.</p>
+            <p class="p-text">
+                The Ghost editor post settings menu has everything you need to fully
+                optimize and distribute your content effectively.
+            </p>
 
             <div class="inside-logo">
                 <div class="ins-1">
